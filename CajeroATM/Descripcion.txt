@@ -1,0 +1,26 @@
+Desarrolle una solución que simule la entrega de tiquets cuando un cliente realice un retiro en un cajero electrónico.
+
+Los requisitos básicos son los siguientes:
+
+Siempre entregar el menor número de tiquets posibles
+Es posible sacar el valor solicitado con los tiquets disponibles
+Saldo del cliente es infinito
+La cantidad de notas es infinita
+Notas disponibles de $ 100,00; $ 50,00; $ 20,00 y $ 10,00
+
+Ejemplos:
+
+Entrada: 30.00
+Resultado: [20.00, 10.00]
+
+Entrada: 80.00
+Resultado: [50.00, 20.00, 10.00]
+
+Entrada: 125.00
+Resultado: throw NoteUnavailableException
+
+Entrada: -130.00
+Resultado: throw InvalidArgumentException
+
+Entrada: NULL
+Resultado: [Empty Set]
